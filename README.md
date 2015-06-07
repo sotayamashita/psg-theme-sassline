@@ -8,9 +8,9 @@ Simple theme of [postcss-style-guide](https://github.com/morishitter/postcss-sty
 $ npm install psg-theme-simple
 ```
 
-## Contributing
+## Theme
 
-### Style
+## Contributi
 
 Transpile `main.css` which is written **cssnext**:
 
@@ -18,8 +18,6 @@ Transpile `main.css` which is written **cssnext**:
 $ npm run transpile src/simple.css ./simple.css
 ```
 If you are not familiar with cssnext, you can get stared with it [here](http://cssnext.io/)
-
-## Theme
 
 ## License
 
