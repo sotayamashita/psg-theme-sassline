@@ -7,7 +7,9 @@ var styleGuide = require('postcss-style-guide')
 var css = fs.readFileSync('./src/simple.css', 'utf8')
 // options for styleguide
 var options = {
-    name: "Project name"
+    name:  "PSG Theme Simple",
+    theme: "simple",
+    file:
 };
 
 // process css
@@ -22,4 +24,6 @@ var output = postcss([
     from: "src/simple.css"
   })
   .css
-fs.writeFileSync("./simple.css", output)
+
+// write css
+fs.writeFileSync("./style.css", output)
