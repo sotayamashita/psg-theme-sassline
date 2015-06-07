@@ -29,12 +29,7 @@
 /**
  * Settings
  */
-/* @import "src/settings/vars.css";
- */
-/**
- * Generic
- */
-@import "generic/normalize.css";
+@import "settings/vars.css";
 
 /**
  * Base
@@ -42,11 +37,15 @@
 @import "base/page.css";
 
 /**
+ * Components
+ */
+@import "components/sassline.css";
+
+/**
  * Layout
  */
-@import "layout/common.css";
 @import "layout/header.css";
-@import "layout/footer.css";
+@import "layout/body.css";
 
 /**
  * Trumps
