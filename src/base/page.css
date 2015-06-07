@@ -17,8 +17,6 @@
 html {
   overflow-y: scroll;
   min-height: 100%;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased;
@@ -28,10 +26,6 @@ html {
 
 body {
   background: var(--white);
-  font-style: normal;
-  line-height: 2rem;
-  font-weight: 400;
-  font-size: 1.33333rem;
   font-family: var(--fontFamily);
 }
 
