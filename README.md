@@ -10,7 +10,7 @@ $ npm install psg-theme-simple
 
 ## Theme
 
-## Contributi
+## Contributing
 
 Transpile `main.css` which is written **cssnext**:
 
