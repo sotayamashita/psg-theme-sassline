@@ -4,22 +4,16 @@
     <meta charset="UTF-8">
     <title><%= projectName %></title>
     <link rel="stylesheet" href="./single.css">
-    <style><%- codeStyle %><%- tmplStyle %><%- css %></style>
+    <link rel="stylesheet" href="simple.css" charset="utf-8">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
     <div class="row">
-      <h1><%= projectName %></h1>
+      <h1>Project name</h1>
     </div>
   </header>
   <main>
-    <% maps.forEach(function (map) { %>
-    <div class="section">
-        <div class="col"><%- map.html %></div>
-        <div class="col"><pre class="code"><code class="lang-css"><%- map.rule %></code></pre></div>
-    </div>
-    <% })%>
   </main>
   <footer>
     <div class="row">

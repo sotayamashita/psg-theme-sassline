@@ -1,6 +1,7 @@
 /* custom properties */
 :root {
-  --grey:  #8D9BA6;
+  --backgroundGreyColor:  #F5F6FA;
+  --greyColor:            #a4b1c1;
   --black: #242528;
   --white: #FFF;
   --fontFamily: 'Lato', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3' ;
@@ -31,4 +32,13 @@ body {
   line-height: 2rem;
   font-weight: 400;
   font-size: 1.33333rem;
+  font-family: var(--fontFamily);
+}
+
+footer {
+  background: var(--backgroundGreyColor);
+}
+
+footer small {
+    color: var(--greyColor);
 }
