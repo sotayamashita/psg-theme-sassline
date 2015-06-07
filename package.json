@@ -1,0 +1,28 @@
+{
+  "name": "psg-theme-simple",
+  "version": "0.0.1",
+  "description": "Simple theme of postcss-style-guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "cssnext"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotayamashita/psg-theme-simple.git"
+  },
+  "keywords": [
+    "psg-theme",
+    "style-guide",
+    "postcss"
+  ],
+  "author": "Sota Yamashita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sotayamashita/psg-theme-simple/issues"
+  },
+  "homepage": "https://github.com/sotayamashita/psg-theme-simple#readme",
+  "devDependencies": {
+    "cssnext": "^1.6.0"
+  }
+}

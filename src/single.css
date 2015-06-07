@@ -1,0 +1,34 @@
+/* custom properties */
+:root {
+  --grey:  #8D9BA6;
+  --black: #242528;
+  --white: #FFF;
+  --fontFamily: 'Lato', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3' ;
+}
+
+
+/**
+ * Page common style
+ *
+ * It is inspired by github.com/inuitcss/base.page
+ * and Medium's style of it.
+ */
+html {
+  overflow-y: scroll;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+  -moz-font-feature-settings:"liga" on;
+}
+
+
+body {
+  background: var(--white);
+  font-style: normal;
+  line-height: 2rem;
+  font-weight: 400;
+  font-size: 1.33333rem;
+}
