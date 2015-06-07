@@ -7,10 +7,10 @@ var styleGuide = require('postcss-style-guide')
 var css = fs.readFileSync('./src/simple.css', 'utf8')
 // options for styleguide
 var options = {
-    name:  "PSG Theme Simple",
-    theme: "simple",
-    file:
-};
+  name: 'PSG Theme Simple',
+  theme: 'simple',
+  file: 'styleguide'
+}
 
 // process css
 var output = postcss([
@@ -21,9 +21,9 @@ var output = postcss([
   .use(styleGuide(options))
   .process(css, {
     // `from` option is required so relative import can work from input dirname
-    from: "src/simple.css"
+    from: 'src/simple.css'
   })
   .css
 
 // write css
-fs.writeFileSync("./style.css", output)
+fs.writeFileSync('./style.css', output)
