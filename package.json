@@ -1,6 +1,6 @@
 {
   "name": "psg-theme-simple",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple theme of postcss-style-guide",
   "main": "index.js",
   "scripts": {
