@@ -10,7 +10,9 @@ $ npm install psg-theme-simple
 
 ## Theme
 
-TODO
+<p align="center">
+  <img src="./showcases/capture.png" width="100%" />
+</p>
 
 ## License
 
