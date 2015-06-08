@@ -2,7 +2,6 @@
   "name": "psg-theme-simple",
   "version": "0.0.1",
   "description": "Simple theme of postcss-style-guide",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "node index.js"
