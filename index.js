@@ -14,7 +14,6 @@ var options = {
 // process css
 var output = postcss([
     require('cssnext')(),
-    require('cssnano')(),
     require('postcss-nested')
   ])
   .process(css, {
