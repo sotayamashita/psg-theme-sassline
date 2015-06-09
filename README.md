@@ -1,6 +1,6 @@
 # psg-theme-sassline
 
-[![npm version](https://badge.fury.io/js/psg-theme-sassline.svg)](http://badge.fury.io/js/psg-theme-sassline)[![Dependency Status](https://gemnasium.com/sotayamashita/psg-theme-sassline.svg)](https://gemnasium.com/sotayamashita/psg-theme-sassline)
+[![npm version](https://badge.fury.io/js/psg-theme-sassline.svg)](http://badge.fury.io/js/psg-theme-sassline) [![Dependency Status](https://gemnasium.com/sotayamashita/psg-theme-sassline.svg)](https://gemnasium.com/sotayamashita/psg-theme-sassline)
 
 
 Sassline theme for [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
