@@ -20,25 +20,68 @@
  * Thank you for choosing psg-theme-simple. May your web fonts render perfectly.
  */
 
+@import "../node_modules/sassline/assets/css/style.css";
+
 /**
  * Settings
  */
-@import "settings/vars.css";
+ /* custom properties */
+:root {
+  --backgroundGreyColor:  #F5F6FA;
+  --greyColor:            #a4b1c1;
+  --black: #242528;
+  --white: #FFF;
+  --fontFamily: 'Lato', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3' ;
+}
+
 
 /**
- * Base
- */
-@import "base/page.css";
+* Page common style
+*
+* It is inspired by github.com/inuitcss/base.page
+* and Medium's style of it.
+*/
+html {
+ overflow-y: scroll;
+ min-height: 100%;
+ text-rendering: optimizeLegibility;
+ -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+ -moz-font-feature-settings:"liga" on;
+}
+
 
 /**
- * Components
+ * Header
  */
-@import "components/sassline.css";
+header {
+  border-bottom: 1px solid #edf0f4;
+  h1 {
+    margin: 2rem 0 2rem 3%;
+    font-family: var(--font);
+  }
+}
 
 /**
- * Layout
+ * Footer
  */
-@import "layout/header.css";
-@import "layout/body.css";
+footer {
+  background: var(--backgroundGreyColor);
+  small {
+    color: var(--greyColor);
+  }
+}
 
-/* Please do not write styles blow. */
+
+/**
+ * Body
+ */
+body {
+  background: var(--white);
+  font-family: var(--fontFamily);
+}
+
+.html {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
