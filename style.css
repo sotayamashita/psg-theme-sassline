@@ -1,74 +1,8 @@
 /*------------------------------------*\
-    SIMPLE.CSS
+    style.css
 \*------------------------------------*/
-/*!*
- *
- * psg-theme-simple -- @sotayamashita
- *
- */
-/**
- * LICENSE
- *
- * Copyright 2015 Sota Yamashita
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy * of this software and associated documentation files (the “Software”), to   * deal in the Software without restriction, including without limitation the   * rights to use, copy, modify, merge, publish, distribute, sublicense, and/or   * sell copies of the Software, and to permit persons to whom the Software is    * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in   * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,     * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE   * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER        * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE * SOFTWARE.
- *
- * Thank you for choosing psg-theme-simple. May your web fonts render perfectly.
- */
-
-/**
- * Settings
- */
-/* custom properties */
-
-/**
- * Base
- */
-/* custom properties */
-
-
-/**
- * Page common style
- *
- * It is inspired by github.com/inuitcss/base.page
- * and Medium's style of it.
- */
-html {
-  overflow-y: scroll;
-  min-height: 100%;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-   -webkit-font-smoothing: antialiased;
-  -moz-font-feature-settings:"liga" on;
-}
-
-
-body {
-  background: #FFF;
-  font-family: 'Lato', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3' ;
-}
-
-footer {
-  background: #F5F6FA;
-}
-
-footer small {
-    color: #a4b1c1;
-}
-
-/**
- * Components
- */
-/**
- * CSS compiled from SCSS
- * 
- * Sassline is licensed under the MIT license. (http://opensource.org/licenses/MIT)
- * https://github.com/designbyjake/sassline
- **/
+/* import sassline style */
+/* CSS compiled from SCSS */
 /* --------------------------------------- */
 * {
   box-sizing: border-box; }
@@ -808,7 +742,7 @@ img {
   background-color: #FCFCFC;
   font-size: 0; }
   .global-header__logo {
-    background-image: url(img/sassline-logo.svg);
+    background-image: url(../node_modules/sassline/assets/img/sassline-logo.svg);
     background-size: cover;
     color: transparent;
     display: inline-block;
@@ -943,7 +877,7 @@ img {
   top: 15px;
   top: 1.3rem; }
   .js .nav-toggle:after {
-    background-image: url(img/menu.svg);
+    background-image: url(../node_modules/sassline/assets/img/menu.svg);
     background-position: 0 0;
     background-size: 30px 60px;
     content: '';
@@ -963,23 +897,60 @@ img {
   background-size: 100% 1rem; }
 
 /**
- * Layout
+ * Settings
  */
-/* header */
-header {
-  border-bottom: 1px solid #edf0f4;
+ /* custom properties */
+
+
+/**
+* Page common style
+*
+* It is inspired by github.com/inuitcss/base.page
+* and Medium's style of it.
+*/
+html {
+ overflow-y: scroll;
+ min-height: 100%;
+ text-rendering: optimizeLegibility;
+ -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+ -moz-font-feature-settings:"liga" on;
 }
 
+
+/**
+ * Header
+ */
+header {
+    margin: 24px 0 24px 3%;
+  border-bottom: 1px solid #edf0f4;
+}
 header h1 {
   margin: 24px 0 24px 3%;
   margin: 2rem 0 2rem 3%;
+  font-family: 'Lato', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3' ; }
+
+/**
+ * Footer
+ */
+footer {
+  background: #F5F6FA;
+}
+footer small {
+  color: #a4b1c1; }
+
+
+/**
+ * Body
+ */
+body {
+  background: #FFF;
   font-family: 'Lato', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3' ;
 }
+
 .html {
   padding: 12px;
   padding: 1rem;
   margin-bottom: 24px;
   margin-bottom: 2rem;
 }
-
-/* Please do not write styles blow. */
