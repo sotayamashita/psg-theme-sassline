@@ -3,7 +3,7 @@ var fs = require('fs')
 var postcss = require('postcss')
 
 // css to be processed
-var css = fs.readFileSync('./src/sassline.css', 'utf8')
+var css = fs.readFileSync('./src/style.css', 'utf8')
 // options for styleguide
 var options = {
   name: 'PSG Theme Sassline',
@@ -17,7 +17,7 @@ var output = postcss([
   ])
   .process(css, {
     // `from` option is required so relative import can work from input dirname
-    from: 'src/sassline.css'
+    from: 'src/style.css'
   })
   .css
 
