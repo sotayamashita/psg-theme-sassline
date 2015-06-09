@@ -1,14 +1,14 @@
 {
-  "name": "psg-theme-simple",
+  "name": "psg-theme-sassline",
   "version": "0.0.2",
-  "description": "Simple theme of postcss-style-guide",
+  "description": "Sassline theme for postcss-style-guide",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sotayamashita/psg-theme-simple.git"
+    "url": "git+https://github.com/sotayamashita/psg-theme-sassline.git"
   },
   "keywords": [
     "psg-theme",
@@ -18,9 +18,9 @@
   "author": "Sota Yamashita",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sotayamashita/psg-theme-simple/issues"
+    "url": "https://github.com/sotayamashita/psg-theme-sassline/issues"
   },
-  "homepage": "https://github.com/sotayamashita/psg-theme-simple#readme",
+  "homepage": "https://github.com/sotayamashita/psg-theme-sassline#readme",
   "devDependencies": {
     "cssnext": "^1.6.0",
     "postcss": "^4.1.11",
