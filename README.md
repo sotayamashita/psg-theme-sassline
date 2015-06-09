@@ -1,5 +1,8 @@
 # psg-theme-sassline
 
+[![Dependency Status](https://gemnasium.com/sotayamashita/psg-theme-sassline.svg)](https://gemnasium.com/sotayamashita/psg-theme-sassline)
+
+
 Sassline theme for [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
 
 ## Installation
