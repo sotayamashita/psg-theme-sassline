@@ -1,11 +1,11 @@
-# psg-theme-simple
+# psg-theme-sassline
 
-Simple theme of [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
+Sassline theme for [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
 
 ## Installation
 
 ```bash
-$ npm install psg-theme-simple
+$ npm install psg-theme-sassline
 ```
 
 ## Theme
