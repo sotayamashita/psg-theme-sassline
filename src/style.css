@@ -4,10 +4,10 @@
 /* import sassline style */
 @import "../node_modules/sassline/assets/css/style.css";
 
+
 /**
  * Settings
  */
- /* custom properties */
 :root {
   --backgroundGreyColor:  #F5F6FA;
   --greyColor:            #a4b1c1;
@@ -18,11 +18,8 @@
 
 
 /**
-* Page common style
-*
-* It is inspired by github.com/inuitcss/base.page
-* and Medium's style of it.
-*/
+ * Page
+ */
 html {
  overflow-y: scroll;
  min-height: 100%;
@@ -39,15 +36,12 @@ html {
 header { border-bottom: 1px solid #edf0f4; }
 header h1 { margin: 2rem 0 2rem 3%; font-family: var(--font); }
 
+
 /**
  * Footer
  */
-footer {
-  background: var(--backgroundGreyColor);
-  small {
-    color: var(--greyColor);
-  }
-}
+footer { background: var(--backgroundGreyColor); }
+footer small { color: var(--greyColor); }
 
 
 /**
