@@ -16,6 +16,14 @@
   --font: 'Lato', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3' ;
 }
 
+.cf{
+    &:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+}
+
 
 /**
  * Page
