@@ -51,3 +51,7 @@ body {
   background: var(--white);
   font-family: var(--font);
 }
+
+.description pre {
+  margin-top: 24px;
+}
