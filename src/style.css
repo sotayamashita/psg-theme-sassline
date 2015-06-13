@@ -60,6 +60,15 @@ body {
   font-family: var(--font);
 }
 
+.box {
+  border-bottom: 1px dashed #edf0f4;
+  margin-bottom: 24px;
+}
+
 .description pre {
   margin-top: 24px;
+}
+
+.code pre {
+  margin-bottom: 0;
 }
