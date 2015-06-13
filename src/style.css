@@ -51,8 +51,3 @@ body {
   background: var(--white);
   font-family: var(--font);
 }
-
-.html {
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
