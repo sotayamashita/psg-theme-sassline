@@ -36,13 +36,8 @@ html {
 /**
  * Header
  */
-header {
-  border-bottom: 1px solid #edf0f4;
-  h1 {
-    margin: 2rem 0 2rem 3%;
-    font-family: var(--font);
-  }
-}
+header { border-bottom: 1px solid #edf0f4; }
+header h1 { margin: 2rem 0 2rem 3%; font-family: var(--font); }
 
 /**
  * Footer
