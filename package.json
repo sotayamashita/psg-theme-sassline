@@ -25,6 +25,7 @@
     "cssnext": "^1.6.0",
     "postcss": "^4.1.11",
     "postcss-nested": "^0.3.2",
-    "sassline": "^2.1.0"
+    "sassline": "^2.1.0",
+    "standard": "^4.3.1"
   }
 }
