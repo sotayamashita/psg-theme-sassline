@@ -12,9 +12,9 @@ var options = {
 
 // process css
 var output = postcss([
-    require('cssnext')(),
-    require('postcss-nested')(),
-  ])
+  require('cssnext')(),
+  require('postcss-nested')(),
+])
   .process(css, {
     // `from` option is required so relative import can work from input dirname
     from: 'src/style.css'
