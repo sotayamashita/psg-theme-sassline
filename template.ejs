@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title><%= projectName %></title>
-    <style><%- codeStyle %><%- tmplStyle %><%- rootStyle %><%- processedCSS %></style>
+    <style><%- codeStyle %><%- tmplStyle %><%- processedCSS %></style>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -13,16 +13,20 @@
   <main>
     <div class="section typeset">
       <% maps.forEach(function (map) { %>
-        <div class="box cf">
-          <div class="description column column--duo">
-              <%- map.html %>
-          </div><!-- column -->
+        <% if (showCode) { %>
+          <div class="box cf">
+            <div class="description column column--duo">
+                <%- map.html %>
+            </div><!-- column -->
 
-          <div class="code column column--duo">
-            <pre class="code"><code class="lang-css"><%- map.rule %></code></pre>
-          </div><!-- column -->
-        </div>
-      <% })%>
+            <div class="code column column--duo">
+              <pre class="code"><code class="lang-css"><%- map.rule %></code></pre>
+            </div><!-- column -->
+          </div>
+        <% } else { %>
+          <!-- Add markup without CSS source code -->
+        <% } %>
+      <% }) %>
 
     </div>
   </main>
